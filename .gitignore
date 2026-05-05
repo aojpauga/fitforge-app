@@ -1,0 +1,27 @@
+# Environment files — never commit these
+.env
+*.env
+
+# Claude Code project memory
+.claude/
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
